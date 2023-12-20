@@ -1,0 +1,46 @@
+.user_item {
+  padding: 24px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(44, 59, 64, 0.15);
+}
+
+.user_list {
+  width: 100%;
+  position: relative;
+  top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 200px) {
+  .user_item:nth-child(1) {
+    width: 90%;
+  }
+  .user_item:nth-child(2) {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .user_list {
+    top: -270px;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .user_item:nth-child(1) {
+    width: 60%;
+  }
+  .user_item:nth-child(2) {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .user_item:nth-child(1) {
+    width: 49%;
+  }
+  .user_item:nth-child(2) {
+    width: 49%;
+  }
+}
